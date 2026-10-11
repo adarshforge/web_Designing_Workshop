@@ -1,14 +1,14 @@
 *{box-sizing:border-box}
 body{margin:0;font-family:Georgia,"Times New Roman",serif;color:#2a1f10;background:#fff}
 
-/* UPDATED: Changed first column from 200px to auto so the title box takes up maximum available width */
+
 .site{display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto 1fr;min-height:100vh;border:1px solid #000}
 
 .logo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 16px; /* Added padding to align with header height */
+  padding: 8px 16px; 
   border-bottom: 1px solid #000;
 }
 .logo img {
@@ -42,7 +42,7 @@ nav a{padding:14px 8px;text-align:center;color:#000;text-decoration:none;font-we
 nav a:last-child{border-right:0}
 nav a:hover,nav a.active{background:#f2bc94}
 
-/* UPDATED: Added grid-column: 1 so aside stays on the left sidebar below nav */
+
 aside{background:#faebd7;border-right:1px solid #000;grid-column:1}
 aside h3{margin:0;padding:12px 16px;font-size:.95rem;border-bottom:1px solid #000;background:#f2bc94}
 aside a{display:block;padding:16px;color:#000;text-decoration:none;font-weight:bold;border-bottom:1px solid #d9b88f}
